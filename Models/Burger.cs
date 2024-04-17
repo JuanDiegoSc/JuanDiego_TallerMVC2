@@ -4,7 +4,8 @@ namespace JuanDiego_TallerMVC2.Models
 {
     public class Burger
     {
-        public int Id { get; set; }
+        [Key]
+        public int BurgerId { get; set; }
         [Required]
         public string? Name { get; set; }
         public bool WithCheese { get; set; }
