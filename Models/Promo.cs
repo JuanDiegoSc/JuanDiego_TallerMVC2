@@ -13,8 +13,8 @@ namespace JuanDiego_TallerMVC2.Models
         [Required]
         public DateTime FechaPromo { get; set; }
 
-        public int BurgerId { get; set; }
+        public int BurgerId { get; set; } //clave foranea
 
-        public Burger? Burger { get; set; }
+        public Burger? Burger { get; set; } //definición de propiedad
     }
 }
